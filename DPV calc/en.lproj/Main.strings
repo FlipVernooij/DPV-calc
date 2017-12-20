@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Gas Volumes"; ObjectID = "43t-V5-POq"; */
+"43t-V5-POq.text" = "Gas Volumes";
+
+/* Class = "UILabel"; text = "Properties"; ObjectID = "LwM-uz-Y0N"; */
+"LwM-uz-Y0N.text" = "Properties";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "ij1-aY-7n8"; */
+"ij1-aY-7n8.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Transport"; ObjectID = "jO0-Se-QhL"; */
+"jO0-Se-QhL.text" = "Transport";
+
+/* Class = "UILabel"; text = "Average depth"; ObjectID = "mN8-6Y-Y6K"; */
+"mN8-6Y-Y6K.text" = "Average depth";

@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD20E5621FE7448D00854C74 /* DivePlanTableViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20E5611FE7448C00854C74 /* DivePlanTableViewController .swift */; };
+		DDD90BA41FCC4ECE002B3BE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BA31FCC4ECE002B3BE3 /* AppDelegate.swift */; };
+		DDD90BA61FCC4ECE002B3BE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BA51FCC4ECE002B3BE3 /* ViewController.swift */; };
+		DDD90BA91FCC4ECE002B3BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD90BA71FCC4ECE002B3BE3 /* Main.storyboard */; };
+		DDD90BAB1FCC4ECE002B3BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD90BAA1FCC4ECE002B3BE3 /* Assets.xcassets */; };
+		DDD90BAE1FCC4ECE002B3BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD90BAC1FCC4ECE002B3BE3 /* LaunchScreen.storyboard */; };
+		DDD90BB91FCC4ECE002B3BE3 /* DPV_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BB81FCC4ECE002B3BE3 /* DPV_calcTests.swift */; };
+		DDD90BC91FCC5093002B3BE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BC51FCC5093002B3BE3 /* Constants.swift */; };
+		DDD90BCA1FCC5093002B3BE3 /* DpvTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BC61FCC5093002B3BE3 /* DpvTableViewController.swift */; };
+		DDD90BCB1FCC5093002B3BE3 /* DiveDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BC71FCC5093002B3BE3 /* DiveDetailsViewController.swift */; };
+		DDD90BD21FCC509E002B3BE3 /* GasVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BCD1FCC509D002B3BE3 /* GasVolume.swift */; };
+		DDD90BD31FCC509E002B3BE3 /* GasVolumeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BCE1FCC509D002B3BE3 /* GasVolumeTableViewController.swift */; };
+		DDD90BD41FCC509E002B3BE3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BCF1FCC509D002B3BE3 /* Extension.swift */; };
+		DDD90BD51FCC509E002B3BE3 /* GasConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BD01FCC509D002B3BE3 /* GasConvert.swift */; };
+		DDD90BD61FCC509E002B3BE3 /* GasSupply.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BD11FCC509E002B3BE3 /* GasSupply.swift */; };
+		DDD90BDC1FCC50B5002B3BE3 /* Localisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BD71FCC50B4002B3BE3 /* Localisation.swift */; };
+		DDD90BDD1FCC50B5002B3BE3 /* UIAlertWithSoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BD81FCC50B5002B3BE3 /* UIAlertWithSoundController.swift */; };
+		DDD90BDE1FCC50B5002B3BE3 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BD91FCC50B5002B3BE3 /* PasswordViewController.swift */; };
+		DDD90BDF1FCC50B5002B3BE3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BDA1FCC50B5002B3BE3 /* Model.swift */; };
+		DDD90BE01FCC50B5002B3BE3 /* PropertiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90BDB1FCC50B5002B3BE3 /* PropertiesTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDD90BB51FCC4ECE002B3BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD90B981FCC4ECE002B3BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD90B9F1FCC4ECE002B3BE3;
+			remoteInfo = "DPV calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD20E5611FE7448C00854C74 /* DivePlanTableViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DivePlanTableViewController .swift"; sourceTree = "<group>"; };
+		DDD90BA01FCC4ECE002B3BE3 /* DPV calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DPV calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD90BA31FCC4ECE002B3BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDD90BA51FCC4ECE002B3BE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDD90BA81FCC4ECE002B3BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD90BAA1FCC4ECE002B3BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD90BAD1FCC4ECE002B3BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDD90BAF1FCC4ECE002B3BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD90BB41FCC4ECE002B3BE3 /* DPV calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DPV calcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD90BB81FCC4ECE002B3BE3 /* DPV_calcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPV_calcTests.swift; sourceTree = "<group>"; };
+		DDD90BBA1FCC4ECE002B3BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD90BC51FCC5093002B3BE3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DDD90BC61FCC5093002B3BE3 /* DpvTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DpvTableViewController.swift; sourceTree = "<group>"; };
+		DDD90BC71FCC5093002B3BE3 /* DiveDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiveDetailsViewController.swift; sourceTree = "<group>"; };
+		DDD90BCD1FCC509D002B3BE3 /* GasVolume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasVolume.swift; sourceTree = "<group>"; };
+		DDD90BCE1FCC509D002B3BE3 /* GasVolumeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasVolumeTableViewController.swift; sourceTree = "<group>"; };
+		DDD90BCF1FCC509D002B3BE3 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		DDD90BD01FCC509D002B3BE3 /* GasConvert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasConvert.swift; sourceTree = "<group>"; };
+		DDD90BD11FCC509E002B3BE3 /* GasSupply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasSupply.swift; sourceTree = "<group>"; };
+		DDD90BD71FCC50B4002B3BE3 /* Localisation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localisation.swift; sourceTree = "<group>"; };
+		DDD90BD81FCC50B5002B3BE3 /* UIAlertWithSoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertWithSoundController.swift; sourceTree = "<group>"; };
+		DDD90BD91FCC50B5002B3BE3 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		DDD90BDA1FCC50B5002B3BE3 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DDD90BDB1FCC50B5002B3BE3 /* PropertiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD90B9D1FCC4ECE002B3BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD90BB11FCC4ECE002B3BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD90B971FCC4ECE002B3BE3 = {
+			isa = PBXGroup;
+			children = (
+				DDD90BA21FCC4ECE002B3BE3 /* DPV calc */,
+				DDD90BB71FCC4ECE002B3BE3 /* DPV calcTests */,
+				DDD90BA11FCC4ECE002B3BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD90BA11FCC4ECE002B3BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD90BA01FCC4ECE002B3BE3 /* DPV calc.app */,
+				DDD90BB41FCC4ECE002B3BE3 /* DPV calcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD90BA21FCC4ECE002B3BE3 /* DPV calc */ = {
+			isa = PBXGroup;
+			children = (
+				DD20E5611FE7448C00854C74 /* DivePlanTableViewController .swift */,
+				DDD90BE11FCC50C0002B3BE3 /* Libs */,
+				DDD90BD91FCC50B5002B3BE3 /* PasswordViewController.swift */,
+				DDD90BDB1FCC50B5002B3BE3 /* PropertiesTableViewController.swift */,
+				DDD90BD81FCC50B5002B3BE3 /* UIAlertWithSoundController.swift */,
+				DDD90BCE1FCC509D002B3BE3 /* GasVolumeTableViewController.swift */,
+				DDD90BC51FCC5093002B3BE3 /* Constants.swift */,
+				DDD90BC71FCC5093002B3BE3 /* DiveDetailsViewController.swift */,
+				DDD90BC61FCC5093002B3BE3 /* DpvTableViewController.swift */,
+				DDD90BA31FCC4ECE002B3BE3 /* AppDelegate.swift */,
+				DDD90BA51FCC4ECE002B3BE3 /* ViewController.swift */,
+				DDD90BA71FCC4ECE002B3BE3 /* Main.storyboard */,
+				DDD90BAA1FCC4ECE002B3BE3 /* Assets.xcassets */,
+				DDD90BAC1FCC4ECE002B3BE3 /* LaunchScreen.storyboard */,
+				DDD90BAF1FCC4ECE002B3BE3 /* Info.plist */,
+			);
+			path = "DPV calc";
+			sourceTree = "<group>";
+		};
+		DDD90BB71FCC4ECE002B3BE3 /* DPV calcTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD90BB81FCC4ECE002B3BE3 /* DPV_calcTests.swift */,
+				DDD90BBA1FCC4ECE002B3BE3 /* Info.plist */,
+			);
+			path = "DPV calcTests";
+			sourceTree = "<group>";
+		};
+		DDD90BE11FCC50C0002B3BE3 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				DDD90BCF1FCC509D002B3BE3 /* Extension.swift */,
+				DDD90BD01FCC509D002B3BE3 /* GasConvert.swift */,
+				DDD90BD11FCC509E002B3BE3 /* GasSupply.swift */,
+				DDD90BCD1FCC509D002B3BE3 /* GasVolume.swift */,
+				DDD90BD71FCC50B4002B3BE3 /* Localisation.swift */,
+				DDD90BDA1FCC50B5002B3BE3 /* Model.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD90B9F1FCC4ECE002B3BE3 /* DPV calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD90BBD1FCC4ECE002B3BE3 /* Build configuration list for PBXNativeTarget "DPV calc" */;
+			buildPhases = (
+				DDD90B9C1FCC4ECE002B3BE3 /* Sources */,
+				DDD90B9D1FCC4ECE002B3BE3 /* Frameworks */,
+				DDD90B9E1FCC4ECE002B3BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DPV calc";
+			productName = "DPV calc";
+			productReference = DDD90BA01FCC4ECE002B3BE3 /* DPV calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD90BB31FCC4ECE002B3BE3 /* DPV calcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD90BC01FCC4ECE002B3BE3 /* Build configuration list for PBXNativeTarget "DPV calcTests" */;
+			buildPhases = (
+				DDD90BB01FCC4ECE002B3BE3 /* Sources */,
+				DDD90BB11FCC4ECE002B3BE3 /* Frameworks */,
+				DDD90BB21FCC4ECE002B3BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD90BB61FCC4ECE002B3BE3 /* PBXTargetDependency */,
+			);
+			name = "DPV calcTests";
+			productName = "DPV calcTests";
+			productReference = DDD90BB41FCC4ECE002B3BE3 /* DPV calcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD90B981FCC4ECE002B3BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "flip vernooij";
+				TargetAttributes = {
+					DDD90B9F1FCC4ECE002B3BE3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DDD90BB31FCC4ECE002B3BE3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDD90B9F1FCC4ECE002B3BE3;
+					};
+				};
+			};
+			buildConfigurationList = DDD90B9B1FCC4ECE002B3BE3 /* Build configuration list for PBXProject "DPV calc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD90B971FCC4ECE002B3BE3;
+			productRefGroup = DDD90BA11FCC4ECE002B3BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD90B9F1FCC4ECE002B3BE3 /* DPV calc */,
+				DDD90BB31FCC4ECE002B3BE3 /* DPV calcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD90B9E1FCC4ECE002B3BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD90BAE1FCC4ECE002B3BE3 /* LaunchScreen.storyboard in Resources */,
+				DDD90BAB1FCC4ECE002B3BE3 /* Assets.xcassets in Resources */,
+				DDD90BA91FCC4ECE002B3BE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD90BB21FCC4ECE002B3BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD90B9C1FCC4ECE002B3BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD90BDF1FCC50B5002B3BE3 /* Model.swift in Sources */,
+				DDD90BD61FCC509E002B3BE3 /* GasSupply.swift in Sources */,
+				DDD90BE01FCC50B5002B3BE3 /* PropertiesTableViewController.swift in Sources */,
+				DD20E5621FE7448D00854C74 /* DivePlanTableViewController .swift in Sources */,
+				DDD90BD41FCC509E002B3BE3 /* Extension.swift in Sources */,
+				DDD90BD51FCC509E002B3BE3 /* GasConvert.swift in Sources */,
+				DDD90BDE1FCC50B5002B3BE3 /* PasswordViewController.swift in Sources */,
+				DDD90BCB1FCC5093002B3BE3 /* DiveDetailsViewController.swift in Sources */,
+				DDD90BDD1FCC50B5002B3BE3 /* UIAlertWithSoundController.swift in Sources */,
+				DDD90BCA1FCC5093002B3BE3 /* DpvTableViewController.swift in Sources */,
+				DDD90BA61FCC4ECE002B3BE3 /* ViewController.swift in Sources */,
+				DDD90BD31FCC509E002B3BE3 /* GasVolumeTableViewController.swift in Sources */,
+				DDD90BD21FCC509E002B3BE3 /* GasVolume.swift in Sources */,
+				DDD90BA41FCC4ECE002B3BE3 /* AppDelegate.swift in Sources */,
+				DDD90BC91FCC5093002B3BE3 /* Constants.swift in Sources */,
+				DDD90BDC1FCC50B5002B3BE3 /* Localisation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD90BB01FCC4ECE002B3BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD90BB91FCC4ECE002B3BE3 /* DPV_calcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDD90BB61FCC4ECE002B3BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD90B9F1FCC4ECE002B3BE3 /* DPV calc */;
+			targetProxy = DDD90BB51FCC4ECE002B3BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDD90BA71FCC4ECE002B3BE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD90BA81FCC4ECE002B3BE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD90BAC1FCC4ECE002B3BE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD90BAD1FCC4ECE002B3BE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD90BBB1FCC4ECE002B3BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDD90BBC1FCC4ECE002B3BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD90BBE1FCC4ECE002B3BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHF2PRSF33;
+				INFOPLIST_FILE = "DPV calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "squad.DPV-calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDD90BBF1FCC4ECE002B3BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHF2PRSF33;
+				INFOPLIST_FILE = "DPV calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "squad.DPV-calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DDD90BC11FCC4ECE002B3BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHF2PRSF33;
+				INFOPLIST_FILE = "DPV calcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "squad.DPV-calcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPV calc.app/DPV calc";
+			};
+			name = Debug;
+		};
+		DDD90BC21FCC4ECE002B3BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHF2PRSF33;
+				INFOPLIST_FILE = "DPV calcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "squad.DPV-calcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPV calc.app/DPV calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD90B9B1FCC4ECE002B3BE3 /* Build configuration list for PBXProject "DPV calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD90BBB1FCC4ECE002B3BE3 /* Debug */,
+				DDD90BBC1FCC4ECE002B3BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD90BBD1FCC4ECE002B3BE3 /* Build configuration list for PBXNativeTarget "DPV calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD90BBE1FCC4ECE002B3BE3 /* Debug */,
+				DDD90BBF1FCC4ECE002B3BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD90BC01FCC4ECE002B3BE3 /* Build configuration list for PBXNativeTarget "DPV calcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD90BC11FCC4ECE002B3BE3 /* Debug */,
+				DDD90BC21FCC4ECE002B3BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD90B981FCC4ECE002B3BE3 /* Project object */;
+}
